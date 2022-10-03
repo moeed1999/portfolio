@@ -1,0 +1,40 @@
+.aboutContainer {
+    padding: 0px 40px;
+
+}
+
+.aboutLeftContainer {
+    /* border: 1px solid black; */
+    height: 80%;
+}
+
+.aboutRightContainer {
+    /* border: 1px solid gray; */
+    height: 80%;
+    padding: 0px 30px;
+    position: relative;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+
+}
+
+.linkedInContainer {
+    align-items: 'center';
+    /* display: 'flex'; */
+    margin-top: 10;
+    /* flex-direction: row; */
+    /* border: 1px solid black; */
+    position: absolute;
+    bottom: 50px;
+}
+
+.linkedInContainer :hover {
+    cursor: pointer;
+}
+
+a:link,
+a:visited {
+    color: #3978E6;
+    text-decoration: none;
+    cursor: auto;
+}
