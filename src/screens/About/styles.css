@@ -24,8 +24,8 @@
     margin-top: 10;
     /* flex-direction: row; */
     /* border: 1px solid black; */
-    position: absolute;
-    bottom: 50px;
+    align-items: center;
+    margin-bottom: 4%;
 }
 
 .linkedInContainer :hover {

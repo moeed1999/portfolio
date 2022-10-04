@@ -3,6 +3,7 @@ import React from 'react'
 import './styles.css'
 import ChevronRightIcon from '@mui/icons-material/ChevronRight';
 import ChevronLeftIcon from '@mui/icons-material/ChevronLeft';
+import DrawerAppBar from '../../components/DrawerAppBar';
 
 const PortfolioHome = () => {
     return (
@@ -10,6 +11,7 @@ const PortfolioHome = () => {
             className='mainContainer'
             style={{ backgroundImage: `url("https://images.unsplash.com/photo-1541701494587-cb58502866ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80")` }}
         >
+            <DrawerAppBar />
             <div className='initialsContainer'>
                 <Typography variant='h2'
                     sx={{
